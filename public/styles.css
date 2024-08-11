@@ -1,0 +1,70 @@
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  padding: 50px;
+  background-color: #374954;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  border: 2px solid black;
+    border-radius: 10px;
+  background-color: #2c3e50;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+h2 {
+  font-size: 50px; /* Style for the new heading */
+  margin-bottom: 40px;
+  color: #6bbe92;
+
+}
+h1 {
+   font-size: 100px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+
+
+button {
+  display: inline-block;
+  background-color: #6bbe92;
+  border: 0;
+  width: 60px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #5aa87a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  display: inline-block;
+  width: 160px;
+  font-size: 40px;
+  background-color: red;
+  border-radius: 19px;
+  font-weight: bold;
+  border: 2px solid rgb(74, 11, 11);
+  margin-top: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: darkred;
+  box-shadow: 1px 1px 10px black;
+}
